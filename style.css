@@ -1,18 +1,21 @@
 html{
-background-image: url("/oceanWave.jpg");
+background-color: rgba(128, 0, 0, 0.8);
 }
 h1{
 text-align:center;
 color: red;
-background-color: maroon;
-}
-firstLine{
-background-color: black;
+margin: 0;
+content: 0;
+border: 0;
+padding: 0;
+width: 100%;
+left: 0px;
+background-size: 100%;
+background-color: rgba(0,100,100,0.2);
+box-sizing: border-box;
 }
 div {
-background-color: #447776;
 width: 100%;
-margin:none;
 text-align: center;
 font-size: 3vmin;
 }
@@ -28,8 +31,10 @@ font-size: 3vmin;
 	color: gray;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: blue;
+	width: 100%;
 }
 .navigation a{
 	font-weight: 100;
