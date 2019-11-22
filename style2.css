@@ -1,0 +1,47 @@
+html{
+	background-color: rgba(128, 0, 0, 0.8);
+	background-image: url(Media/catholicmeme);
+}
+body{
+	margin:0;
+	padding:0;
+}
+.navigation a{
+	font-weight: 100;
+	letter-spacing: 2px;
+	list-style-type: none;
+	text-decoration: none;
+	background-size:cover;
+}
+.navigation a:visited{
+	color: gray;
+}
+.navigation a:hover{
+	color: red;
+	opacity: 0.5;
+}
+.navigation li.currentNav{
+	color:red;
+	font-weight: 700;
+	letter-spacing: 4px;
+	font-size: 18;
+	list-style-type: none;
+}
+.navigation{
+	opacity: 0.5;
+	color: gray;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: blue;
+}
+.navigation hr{
+	margin-left:40vw;
+	margin-right:40vw;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+header{
+	margin: 0;
+	padding:0;
+
+}
